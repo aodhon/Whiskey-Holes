@@ -1,0 +1,117 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -366.9380530973451 -1124.4601769911505 816.4955752212389 140.38938053097345
+##XTHERION## xth_me_area_zoom_to 113
+
+# 2018.04.16 created by TopoDroid v. 4.0.0e
+
+#P  u:user label air-draught blocks clay continuation debris entrance flowstone rimstone-pool paleo-material sand stalactite stalagmite water-flow
+#L  u:user wall arrow border pit rock-border slope wall:blocks
+#A  u:user water blocks clay debris sand
+
+
+
+
+scrap Whiskey_Holes-2p -projection plan -scale [0 0 100 0 0 0 1 0 m]
+
+area water
+endarea
+
+line floor-step
+  457.52 -474.34
+  443.36 -505.31 448.67 -532.74 458.82 -554.41
+  smooth off
+endline
+
+line wall -subtype blocks
+  484.96 -467.26
+  358.55 -491.83 379.65 -483.19 302.65 -542.48
+  smooth off
+endline
+
+line wall -subtype blocks
+  302.65 -542.48
+  236.28 -652.19 264.6 -759.29 286.73 -801.77
+  smooth off
+endline
+
+line wall -subtype blocks
+  286.73 -801.77
+  294.0 -843.41 321.2 -887.63 336.03 -927.21
+  337.09 -930.04 381.55 -920.05 379.41 -892.65
+  372.73 -807.16 345.74 -724.25 336.76 -638.97
+  335.08 -623.0 334.57 -601.21 347.77 -592.06
+  379.9 -569.8 421.8 -566.96 458.82 -554.41
+  smooth off
+endline
+
+line wall -subtype blocks
+  458.82 -554.41
+  461.18 -562.21 467.45 -651.29 511.5 -642.48
+  522.34 -640.31 534.46 -629.64 534.51 -618.58
+  534.76 -565.86 500.88 -492.04 484.96 -467.26
+  smooth off
+endline
+
+line u:splay -visibility off
+  -235.46 -404.37
+  301.51 -507.87
+endline
+
+line u:splay -visibility off
+  271.2 -534.66
+  297.1 -381.57
+endline
+
+line u:splay -visibility off
+  271.2 -534.66
+  358.92 -273.68
+endline
+
+line u:splay -visibility off
+  271.2 -534.66
+  317.84 -447.95
+endline
+
+line u:splay -visibility off
+  197.68 -765.71
+  355.88 -646.92
+endline
+
+line u:splay -visibility off
+  197.68 -765.71
+  355.81 -768.33
+endline
+
+line u:splay -visibility off
+  197.68 -765.71
+  385.2 -918.46
+endline
+
+line u:splay -visibility off
+  291.59 -733.38
+  404.12 -993.08
+endline
+
+line u:splay -visibility off
+  291.59 -733.38
+  374.81 -939.37
+endline
+
+line u:splay -visibility off
+  291.59 -733.38
+  685.01 -583.27
+endline
+
+point 500.00 -600.00 station -name "17"
+
+point 489.21 -508.86 station -name "16"
+
+point 300.37 -565.17 station -name "15"
+
+point 351.36 -899.63 station -name "14"
+
+point 291.59 -733.38 station -name "13"
+
+endscrap
+
+

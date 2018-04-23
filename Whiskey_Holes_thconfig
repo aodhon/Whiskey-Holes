@@ -1,0 +1,13 @@
+encoding  utf-8
+source Whiskey_Holes.th
+export map -proj plan -layout local -output Whiskey_Holes.pdf
+export map -proj extended -layout local -output Whiskey_Holes_Elevation.pdf
+layout local
+  #color map-fg [97 86 38]
+  #color-legend on
+  #grid bottom
+  #grid-size 5 5 5 m
+  #grid-coords border
+  legend on
+  scale 1 100
+endlayout
